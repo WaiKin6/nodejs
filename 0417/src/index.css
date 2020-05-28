@@ -1,0 +1,288 @@
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.App .top {
+  width: 100%;
+  height: 50px;
+}
+
+.App .bottom {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  display: flex;
+}
+
+.App .bottom .left {
+  width: 13%;
+  min-width: 200px;
+  height: 100%;
+  transition: all 0.1s ease-in-out;
+  background: #001529;
+}
+
+.App .bottom .left.active {
+  transition: all 0.1s ease-in-out;
+  background: #ffffff;
+}
+
+.App .bottom .right {
+  width: 87%;
+  min-width: 1000px;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.App .bottom .right .ant-carousel .slick-slide {
+  text-align: center;
+  height: 380px;
+  line-height: 380px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.App .bottom .right .ant-carousel .slick-slide img {
+  width: 100%;
+  height: 380px;
+}
+
+.App .bottom .right .ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.App .bottom .right .main {
+  margin: 15px 150px;
+  display: flex;
+  min-width: 1000px;
+  flex-direction: column;
+}
+
+.App .bottom .right .main .main-top {
+  height: 550px;
+  width: 100%;
+  display: flex;
+}
+
+.App .bottom .right .main .main-top .main-top-left {
+  width: 834px;
+  height: 100%;
+}
+
+.App .bottom .right .main .main-top .main-top-left .title {
+  margin: 14px 0;
+  display: flex;
+  height: 24px;
+  line-height: 24px;
+  border-left: 5px solid blue;
+  border-radius: 3px;
+}
+
+.App .bottom .right .main .main-top .main-top-left .title h2 {
+  text-indent: 12px;
+}
+
+.App .bottom .right .main .main-top .main-top-left .title span {
+  margin-left: 12px;
+  color: blue;
+}
+
+.App .bottom .right .main .main-top .main-top-left .left-cont {
+  width: 100%;
+  height: 550px;
+  background: rgba(107, 162, 252, 0.08);
+}
+
+.App .bottom .right .main .main-top .main-top-left .left-cont .item {
+  display: flex;
+  height: 50px;
+  padding: 50px;
+}
+
+.App .bottom .right .main .main-top .main-top-left .left-cont .item .one {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+}
+
+.App .bottom .right .main .main-top .main-top-left .left-cont .item .one img {
+  width: 100%;
+  height: 100%;
+}
+
+.App .bottom .right .main .main-top .main-top-left .left-cont .item .two {
+  flex: 1;
+  padding-left: 14px;
+}
+
+.App .bottom .right .main .main-top .main-top-left .left-cont .item .two h3 {
+  font-weight: 400;
+  font-size: 18px;
+  height: 21px;
+}
+
+.App .bottom .right .main .main-top .main-top-left .left-cont .item .three {
+  flex: 1;
+  text-align: right;
+  line-height: 86px;
+}
+
+.App .bottom .right .main .main-top .main-top-left .left-cont .item .four {
+  flex: 1;
+  text-align: right;
+  line-height: 86px;
+}
+
+.App .bottom .right .main .main-top .main-top-right {
+  width: 445px;
+  height: 602px;
+  overflow: hidden;
+  margin-left: 12px;
+}
+
+.App .bottom .right .main .main-top .main-top-right .title {
+  margin: 14px 0;
+  display: flex;
+  height: 24px;
+  line-height: 24px;
+  border-left: 5px solid blue;
+  border-radius: 3px;
+}
+
+.App .bottom .right .main .main-top .main-top-right .title h2 {
+  text-indent: 12px;
+}
+
+.App .bottom .right .main .main-top .main-top-right .title span {
+  margin-left: 12px;
+  color: blue;
+}
+
+.App .bottom .right .main .main-top .main-top-right .main-top-right-in {
+  width: 100%;
+  height: 100%;
+  padding: 50px 0;
+  overflow: auto;
+  background: rgba(107, 162, 252, 0.08);
+}
+
+.App .bottom .right .main .main-top .main-top-right .main-top-right-in .item {
+  display: flex;
+  font-size: 13px;
+  border-bottom: 1px dashed #ccc;
+  margin: 0 50px;
+  padding-top: 10px;
+}
+
+.App .bottom .right .main .main-top .main-top-right .main-top-right-in .item span {
+  font-size: 12px;
+  color: #cccccc;
+}
+
+.App .bottom .right .main .main-top .main-top-right .main-top-right-in .item .item-left {
+  flex: 3;
+}
+
+.App .bottom .right .main .main-top .main-top-right .main-top-right-in .item .item-left p {
+  width: 130px;
+  height: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.App .bottom .right .main .main-top .main-top-right .main-top-right-in .item .item-right {
+  margin-left: 8px;
+  flex: 1;
+}
+
+.App .bottom .right .main .main-top .main-top-right .main-top-right-in .item .item-right .bord span {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 2px;
+}
+
+.App .bottom .right .main .main-top .main-top-right .main-top-right-in .item .item-right .gray {
+  font-size: 14px;
+  color: #ccc;
+  margin-left: 2px;
+}
+
+.App .bottom .right .main .main-bottom {
+  margin: 100px 0 50px 0;
+  width: 100%;
+  height: 230px;
+}
+
+.App .bottom .right .main .main-bottom .title {
+  margin: 14px 0;
+  display: flex;
+  height: 24px;
+  line-height: 24px;
+  border-left: 5px solid blue;
+  border-radius: 3px;
+}
+
+.App .bottom .right .main .main-bottom .title h2 {
+  text-indent: 12px;
+}
+
+.App .bottom .right .main .main-bottom .title span {
+  margin-left: 12px;
+  color: blue;
+}
+
+.App .bottom .right .main .main-bottom .bottom-cont {
+  width: 100%;
+  height: 120px;
+  display: flex;
+}
+
+.App .bottom .right .main .main-bottom .bottom-cont .item {
+  width: 300px;
+  display: flex;
+  padding: 10px;
+  background: rgba(107, 162, 252, 0.08);
+  margin-right: 30px;
+}
+
+.App .bottom .right .main .main-bottom .bottom-cont .item .bleft {
+  width: 50px;
+  height: 50px;
+  margin: 18px 18px 0 -18px;
+}
+
+.App .bottom .right .main .main-bottom .bottom-cont .item .bleft img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.App .bottom .right .main .main-bottom .bottom-cont .item .bright h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.App .bottom .right .main .main-bottom .bottom-cont .item .bright .gray {
+  color: gray;
+}
+
+.App .bottom .main-top-right-in::-webkit-scrollbar {
+  display: none;
+  /* Chrome Safari */
+}
+
+.App .bottom .left::-webkit-scrollbar {
+  display: none;
+  /* Chrome Safari */
+}
+
+.App .bottom .right::-webkit-scrollbar {
+  display: none;
+  /* Chrome Safari */
+}
